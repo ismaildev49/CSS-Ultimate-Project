@@ -1,0 +1,57 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 38.73px;
+  text-transform: uppercase;
+
+  span {
+    color: $red;
+  }
+}
+.p-light {
+  color: $light_white;
+  font-weight: 300;
+  size: 10px;
+  line-height: 32px;
+  letter-spacing: 0.72px;
+}
+.p-normal {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.btn {
+  width: 160px;
+  padding: 13px 30px;
+  background-color: $red;
+  border-radius: 75px;
+  font-size: 14px;
+  line-height: 16.8px;
+  letter-spacing: 0.63px;
+  box-shadow: $shadow;
+  text-transform: uppercase;
+  font-weight: 500;
+  &:hover {
+    background-color: $white;
+    color: $red;
+  }
+}
+.titre-min {
+  color: $titre_minuscule;
+  font-size: 16px;
+  line-height: 32px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.barlow-condensed {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 114%;
+  font-style: normal;
+}

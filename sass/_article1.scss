@@ -1,0 +1,57 @@
+.article1{
+    .container .txt::before{
+        content: url(../images/points-sphère.png);
+        position: absolute;
+        top: -50px;
+        left: -50px;
+    }
+    .container .txt::after{
+        content: url(../images/points-rectangle.png);
+        position: absolute;
+        left: 280px;
+        top: 200px;
+        
+        
+    }
+    
+    .container .txt{
+        display: flex;
+        flex-direction: column;
+        max-width: 510px;
+        margin: 130px 0 ;
+        gap: 20px;
+        position: relative;
+        h2{font-weight: 300;
+            font-size: 64px;
+            line-height: 76.8px;
+            font-style: normal;
+            text-transform: uppercase;
+            letter-spacing: 2.88px;
+        }
+        h3{
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 38.4px;
+            text-transform: uppercase;
+            color: $yellow;
+            letter-spacing: 1.44px;
+        }
+        p{
+            @extend .p-light;
+            max-width: 400px;
+        }
+
+        .buttons{
+            display: flex;
+            gap: 24px;
+        }
+
+        .btn-white{
+            @extend .btn;
+            background-color: $white;
+            color: black;
+        }
+      
+        
+    }
+}

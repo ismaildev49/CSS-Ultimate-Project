@@ -1,0 +1,42 @@
+.footer{
+    .container{
+        max-width: 1000px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 120px;
+        padding-bottom: 30px;
+        border-bottom: 0.5px solid $white;
+        div{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .icons{
+            display: inline;
+            gap: 0;
+            a{  @extend .p-light;
+                background-color: $icons_bg;
+                padding: 16px;
+                border-radius: 50%;
+            }
+            #fb{
+                padding-inline: 20px;
+            }
+            
+        }
+        
+    }
+    .copywrighting{
+        max-width: 1000px;
+        display: flex;
+        justify-content: space-between;
+        margin: 70px auto 40px auto;
+        border-bottom: none;
+        div{
+            display: flex;
+            flex-direction: row;
+            
+        }
+    }
+}
+

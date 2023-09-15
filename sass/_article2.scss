@@ -1,0 +1,26 @@
+.article2{
+    
+    .container{
+        display: grid;
+        grid-template-columns: 570px 1fr;
+        gap: 145px;
+        margin-bottom: 50px;
+        img{
+            height: 570px;
+        }
+        .txt::before{
+            content: url('/images/Ellipse\ 1.svg');
+            position: absolute;
+            right: 40px;
+            top: 100px;
+        }
+        .txt{
+            position: relative;
+            padding-top: 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 1.875rem;
+            
+        }
+    }
+}
