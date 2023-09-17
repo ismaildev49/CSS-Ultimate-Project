@@ -5,9 +5,10 @@
 }
 
 body{
-    
+    width: 100%;
     font-family: 'Barlow', sans-serif;
     background-image: url('/images/sphère.png'),  linear-gradient(to left, #2C2D65, #201F22) ;
+    
     background-repeat: no-repeat, repeat-y;
     background-position: left 120% top -110px, ;
     background-size: 50%, 100% ;
