@@ -96,6 +96,7 @@
 @media screen and (max-width: 550px) {
   .container {
     max-width: 500px;
+    margin-inline: 16px;
   }
   .header {
     .container {
@@ -109,6 +110,7 @@
   }
   .article1{
     .txt {
+      margin: 20px 0;
       justify-content: center;
       align-items: center;
       text-align: center;
@@ -116,6 +118,12 @@
         max-width: 400px;
         text-align: center;
       }
+    }
+    .txt::before{
+      display: none;
+  }
+    .txt::after{
+      display: none;
     }
   }
 
